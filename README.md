@@ -9,7 +9,7 @@ In literature, the relevant optimization models are referred to as two-dimension
 C UTTING STOCK problems, the difference lying in the number of each small item required (one or few units in the former case and many in the latter). In fact, those models extends well beyond stock cutting applica- tions, and include task scheduling, VLSI design, image processing, packing goods in crates, commercials assignment to TV breaks, truck loading, just to name a few.
 
 For computational implementation, we use the benchmark data sets provided in
-[Beasley](file://AnExactTwo-DimensionalNonGuillotineCutting.pdf). The instances are divided into four classes.
+[Beasley](/AnExactTwo-DimensionalNonGuillotineCutting.pdf). The instances are divided into four classes.
 • Class1: W = H = 10 and wi and hi are random in [1, 10].
 • Class2: W = 15, H = 10 and wi and hi are random in [1, 15].
 • Class3: W = H = 20 and wi and hi are random in [1, 20].
