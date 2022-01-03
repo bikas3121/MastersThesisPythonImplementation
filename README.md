@@ -10,9 +10,9 @@ C UTTING STOCK problems, the difference lying in the number of each small item r
 
 For computational implementation, we use the benchmark data sets provided in
 [Beasley](/AnExactTwo-DimensionalNonGuillotineCutting.pdf). 
-The algorithm was programmed in Python and solved using GUROBI optimizer. There are two pythons files one provides the horizontal relaxation and other the vertical relaxation. 
+The algorithm was programmed in Python and solved using GUROBI optimizer. There are two pythons files one provides the [horizontal relaxation](/relaxation_horizontal.py) and other the [vertical relaxation](/relaxation_vertical.py). 
 
-## Please see the [Master's Thesis](/MastersThesis.pdf) for more details. 
+#### Please see the [Master's Thesis](/MastersThesis.pdf) for more details. 
 
 
 
