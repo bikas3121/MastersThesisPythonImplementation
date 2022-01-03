@@ -9,13 +9,10 @@ In literature, the relevant optimization models are referred to as two-dimension
 C UTTING STOCK problems, the difference lying in the number of each small item required (one or few units in the former case and many in the latter). In fact, those models extends well beyond stock cutting applica- tions, and include task scheduling, VLSI design, image processing, packing goods in crates, commercials assignment to TV breaks, truck loading, just to name a few.
 
 For computational implementation, we use the benchmark data sets provided in
-[Beasley](/AnExactTwo-DimensionalNonGuillotineCutting.pdf). The instances are divided into four classes.
-• Class1: W = H = 10 and wi and hi are random in [1, 10].
-• Class2: W = 15, H = 10 and wi and hi are random in [1, 15].
-• Class3: W = H = 20 and wi and hi are random in [1, 20].
-• Class4: W = H = 30 and wi and hi are random in [1, 30].
-where W and H are the width and height of the bin and wi and h i are the width
-and height of item i, respectively. Each class of data set has 3 instances with n items
-( n = 5, 7, 10 ).
-The implementation was made in Intel Core i5-3210M with 8GB of RAM. The
-algorithm was programmed in Python and solved using GUROBI optimizer. 
+[Beasley](/AnExactTwo-DimensionalNonGuillotineCutting.pdf). 
+The algorithm was programmed in Python and solved using GUROBI optimizer. There are two pythons files one provides the horizontal relaxation and other the vertical relaxation. 
+
+## Please see the [Master's Thesis](/MastersThesis.pdf) for more details. 
+
+
+
